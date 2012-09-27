@@ -1,0 +1,83 @@
+body {
+  margin:0;
+  min-width:975px;
+  width: 95%;
+ }
+ 
+#topnav{
+    width:100%;
+    min-height:20px;
+    height: 5%;
+    
+}
+
+#mainblock{
+    width:1050px;
+    margin:0 auto 0 auto;
+}
+
+#mainnav {
+font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+height: 2.5em;
+float: left;
+font-size: 1.9em;
+margin: 0;
+width: 100%;
+}
+
+#brand {
+width: 22%;
+text-align: right;
+float: left;
+color: rgb(101,101,101);
+font-weight: 200;
+text-transform: uppercase;
+letter-spacing: 2.5px;
+border-right: solid;
+border-color: rgb(150,150,150);
+border-right-width: 1px;
+padding-right: 10px;
+padding-bottom: 6px;
+}
+
+#categories{
+    width:76%;
+    float:left;
+}
+
+#categories ul, #categories ol, #categories li
+{
+    list-style:none;
+    float:left;
+}
+
+#categories ul, #categories ol{
+    width:100%;
+}
+
+#categories li{
+float: left;
+width: 20%;
+text-align: center;
+}
+
+#categories a, #categories a:visited, #categories a:active{
+text-decoration: none;
+font-size: .75em;
+color: rgb(101,101,101);
+font-weight:200;
+padding:10px;
+
+}
+
+#categories a:hover{
+color:rgb(255,153,0);
+text-decoration:none;
+background:rgb(240,240,240);
+}
+
+hr{
+height: 0;
+border-top: 1px;
+border-color: rgb(200, 200,200);
+}
