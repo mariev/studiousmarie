@@ -2,27 +2,45 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-   <link rel="stylesheet" href="media/css/portfolio.css" type="text/css" media="screen">
+   <link rel="stylesheet" href="http://mariev.net/studiousmarie/media/css/portfolio.css" type="text/css" media="screen">
 </head>
 <body>
     <div id = "topnav">
+ 
     </div>
     
     <div id = "mainblock">
         <div id = "header">
             <ul>
-                <li id ="brand"><h1>Marie</h1><h1>Vendettuoli</h1></li>
-                <li id = "section">about</li>
-                <li id = "section">CV</li>
-                <li id = "section">portfolio</li>
-                <li id = "section">publications</li>
+               
+                <li id = "section">
+                {% if {{page.section}} == "about" %}
+                    <div id = "selected">
+                {% endif %}
+                    <a href = "http://mariev.net/studiousmarie">about</a>
+                {% if {{page.section}} == "about" %}
+                    </div>
+                {% endif %}   
+                    </li>
+                <li id = "section"><a href = "http://mariev.net/studiousmarie/p/cv.html">CV</a></li>
+                <li id = "section"><a href = "http://mariev.net/studiousmarie/p/port.html">portfolio</a></li>
+                <li id = "section"><a href = "http://mariev.net/studiousmarie/p/pubs.html">publications</a></li>
+                <li id = "section"><a href = "http://mariev.net/studiousmarie/p/blog.html">blog</a></li>
+                 
             </ul>
+                           <div id ="brand"><a href = "http://mariev.net/studiousmarie"><h1>Marie Vendettuoli</h1></a></div>
+
         </div>
         <div id = "content">
+            {{page.content}}
         </div>
     </div>
+    <br>
+
     
-    <div id = "footer">
-    </div>
+<div id = "footer">
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png" /></a>
+</div>
+<br>
 </body>
 </html>
