@@ -169,6 +169,8 @@ margin-left:50px;
 }
 
 #note{
-  color:rgb(150,150,150);
+  font-size: .85em;
+color: #787878;
+text-transform: lowercase;
   } 
   
