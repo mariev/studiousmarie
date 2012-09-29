@@ -39,7 +39,7 @@ section: cv
         <li>Technologist, Donor Testing::Puget Sound Blood Center</li>
         <li>Technical Assistant, Donor Testing::Puget Sound Blood Center</li>
         <li>Research Engineer::University of Washington</li>
-        <ul><li>VITA Site Manager::United Way</li></ul>
+        <li>VITA Site Manager::United Way</li>
       </div>  
       <br>
       <hr>
