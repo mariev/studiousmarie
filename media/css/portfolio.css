@@ -147,22 +147,23 @@ margin-left:50px;
 }
 
 #label{
-    width:33%;
+    width:15%;
     text-align:right;
 }
 
 #activities{
-  width:65%;
+  width:85%;
  }
  
 #activities ul{
   margin-top:0;
-  list-style:none;
+  list-style:non
  
  }
  
  #activities, #label{
   font-weight:100;
   font-size:.9em;
+  float:left;
   }
   
