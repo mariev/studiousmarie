@@ -77,7 +77,7 @@ font-size: 1.25em;
 }
     
     
-#header li a, #header li a:visited, #header li a:active, #right a, #intro_blurb a {
+#header li a,  #header li a:active, #right a, #intro_blurb a {
     text-decoration:none;
      color: rgb(255, 153, 0);
 }
