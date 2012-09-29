@@ -71,13 +71,13 @@ font-size: 1.25em;
 }
 
     
-#section #selected a, #header li a:hover, #right a:hover{
+#section #selected a, #header li a:hover, #right a:hover, #intro a:hover{
     color:rgb(0 , 180, 180);
     
 }
     
     
-#header li a, #header li a:visited, #header li a:active, #right a {
+#header li a, #header li a:visited, #header li a:active, #right a, #intro_blurb a {
     text-decoration:none;
      color: rgb(255, 153, 0);
 }
@@ -158,7 +158,7 @@ margin-left:50px;
  
 #activities ul{
   margin-top:0;
-  list-style:non
+  list-style:none;
  
  }
  

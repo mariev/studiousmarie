@@ -24,9 +24,9 @@ section: cv
     </div>
     <div id = "activities">
       <ul>
-        <li>SCEP::USDA APHIS Center for Veterinary Biologics</li>
-        <li>Graduate Research Assistant::IGERT</li>
-        <li>Undergraduate Researcher</li>
+        <li>SCEP::USDA APHIS Center for Veterinary Biologics::Fall 2010 - present</li>
+        <li>Graduate Research Assistant::IGERT::Fall 2008 - Summer 2010</li>
+        <li>Undergraduate Researcher::University of Washington::Summer 2000 - Spring 2003</li>
        </ul>
      </div>
     <br>
@@ -36,12 +36,14 @@ section: cv
     </div>
     <div id = "activities">
        <ul>
-        <li>Technologist, Donor Testing::Puget Sound Blood Center</li>
-        <li>Technical Assistant, Donor Testing::Puget Sound Blood Center</li>
-        <li>Research Engineer::University of Washington</li>
-        <li>VITA Site Manager::United Way</li>
-      </div>  
+        <li>Technologist, Donor Testing::Puget Sound Blood Center::2005 - 2008</li>
+        <li>Technical Assistant, Donor Testing::Puget Sound Blood Center::2004-2005</li>
+        <li>Research Engineer::University of Washington::2003-2004</li>
+        <li>VITA Site Manager::United Way::2008</li>
+      </div> 
       <br>
       <hr>
-      
+      <div id = "intro_blurb" style="padding:5px;font-size:.85em;" >
+      see my full <a href = "">CV</a>
+      </div>
 </div>

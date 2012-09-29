@@ -22,7 +22,15 @@
                     </div>
                 {% endif %}   
                     </li>
-                <li id = "section"><a href = "http://mariev.net/studiousmarie/p/cv.html">CV</a></li>
+                <li id = "section">
+                {% if {{page.section}} == "cv" %}
+                    <div id = "selected">
+                {% endif %}
+                <a href = "http://mariev.net/studiousmarie/p/cv.html">CV</a>
+                {% if {{page.section}} == "cv" %}
+                    </div>
+                 {% endif %}
+                    </li>
                 <li id = "section"><a href = "http://mariev.net/studiousmarie/p/port.html">portfolio</a></li>
                 <li id = "section"><a href = "http://mariev.net/studiousmarie/p/pubs.html">publications</a></li>
                 <li id = "section"><a href = "http://mariev.net/studiousmarie/p/blog.html">blog</a></li>
