@@ -153,3 +153,7 @@ margin-left:50px;
 #activities{
   width:65%;
  }
+ 
+#activities ul{
+  margin-top:0;
+ }
