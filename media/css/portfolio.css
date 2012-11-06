@@ -66,10 +66,10 @@ margin:0;
 font-family: 'helvetica', 'arial', sans-serif;
 color: rgb(101,101,101);
 font-weight: 300;
-line-height:1.5em;
 font-size: 1.2em;
+text-transform:lowercase;
 }
-}
+
 
 #section{
 
