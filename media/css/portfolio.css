@@ -62,7 +62,7 @@ margin:0;
     ;
 }
 
-#header h1{
+#content h1{
 font-family: 'helvetica', 'arial', sans-serif;
 color: rgb(101,101,101);
 font-weight: 300;
@@ -70,6 +70,7 @@ line-height:1.5em;
 font-size: 1.2em;
 }
 }
+
 #section{
 
 margin-bottom: 0px;
