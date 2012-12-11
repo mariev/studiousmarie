@@ -1,5 +1,5 @@
 ---
-title: studiousmarie blog | Marie Vendettuoli
+title: studiousmarie | Marie Vendettuoli
 layout: default
 section: blog
 
