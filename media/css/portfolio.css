@@ -1,25 +1,24 @@
 body {
-  margin:auto;
-  min-width:975px;
-  width: 95%;
- }
+margin:auto;
+min-width:975px;
+width: 95%;
+}
  
 #topnav{
-    width:100%;
-    min-height:20px;
-    height: 5%;
+width:100%;
+min-height:20px;
+height: 5%;
     
 }
 
 #mainblock{
-    width:1050px;
-    margin:0 auto 0 auto;
+width:1050px;
+margin:0 auto 0 auto;
 }
 
 
 #brand, #header li#brand {
 text-transform: uppercase;
-
 /*border-right: solid;
 border-color: rgb(150,150,150);
 border-right-width: 1px; */
@@ -87,17 +86,17 @@ font-size: 1.25em;
     
     
 #header li a,  #header li a:active, #right a, #intro_blurb a {
-    text-decoration:none;
-     color: rgb(255, 153, 0);
+text-decoration:none;
+color: rgb(255, 153, 0);
 }
 
 #brand a, #brand a:visited{
-    color:rgb(101,101,101);
-    text-decoration:none;
+color:rgb(101,101,101);
+text-decoration:none;
 }
 
 #statement{
-    float:left;
+float:left;
 padding-top: 10px;
 padding-bottom: 10px;
 width: 95%;
@@ -111,22 +110,21 @@ margin: 10px 40px 0 40px;
 }
     
 #banner{
-    width:300px;
-    float:left;
+width:300px;
+float:left;
 
 }
 
 #content{
-    width:100%;
-    margin: 0;
+width:100%;
+margin: 0;
 }
 
 #intro_blurb{
-    clear:left;
-    
-    padding-top: 20px;
+clear:left;
+padding-top: 20px;
 background: rgb(240, 240, 240);
-width: 100%;
+width: 95%%;
 padding-left: 30px;
 padding-bottom:40px;
 }
