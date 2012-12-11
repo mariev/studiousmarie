@@ -12,7 +12,7 @@ section: about
 	"http://www.iastate.edu/">Iowa State 
 	University</a>. My background is in Biochemistry and Math. Prior to grad school, 
 	I worked for five (5) years at <a href = "http://psbc.org/home/index.htm" 
-	alt ="Donate a pint - save 3 lives!"> Puget 
+	title ="Donate a pint - save 3 lives!"> Puget 
 	Sound Blood Center</a>, testing donor blood products.
 	<br><br>
 	My main interest is developing analytical systems that help scientists and researchers 
