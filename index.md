@@ -11,8 +11,9 @@ section: about
 	Computational Biology (BCB) and Human Computer Interaction (HCI) at <a href = 
 	"http://www.iastate.edu/">Iowa State 
 	University</a>. My background is in Biochemistry and Math. Prior to grad school, 
-	I worked for five (5) years at the <a href = "http://psbc.org/home/index.htm"> Puget 
-	Sound Blood Center </a>, testing donor blood products.
+	I worked for five (5) years at <a href = "http://psbc.org/home/index.htm" 
+	alt ="Donate a pint - save 3 lives!"> Puget 
+	Sound Blood Center</a>, testing donor blood products.
 	<br><br>
 	My main interest is developing analytical systems that help scientists and researchers 
 	do their job more effectively. I primarily program in R, but routinely use python, 
