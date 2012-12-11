@@ -1,5 +1,5 @@
 ---
-title: studiousmarie
+title: Marie Vendettuoli
 layout: default
 section: about
 
