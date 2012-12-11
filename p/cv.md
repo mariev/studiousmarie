@@ -10,7 +10,7 @@ section: cv
     </div>
     <div id = "activities">
       <ul>
-        <li> <b>PhD. </b>Iowa State University :: 2014 (anticipated)
+        <li> <b>PhD. </b>Iowa State University :: Summer 2013 (anticipated)
           <ul><li> Bioinformatics and Computational Biology</li>
              <li>Human Computer Interaction</li>
            </ul></li>
