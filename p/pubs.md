@@ -1,7 +1,7 @@
 ---
 title: Publications | Marie Vendettuoli
 layout: default
-section: pubs
+section: pubs 
 
 ---
 
