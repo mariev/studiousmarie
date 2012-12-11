@@ -108,7 +108,12 @@ width: 600px;
 float: left;
 margin: 10px 40px 0 40px;
 }
-    
+
+#statement p a{
+text-decoration: none;
+border-bottom:1px dotted #505050;
+}	
+
 #banner{
 width:300px;
 float:left;

@@ -9,8 +9,8 @@ section: about
 <div id="statement">
 	<p> I am a PhD candidate in the interdisciplinary programs of Bioinformatics and 
 	Computational Biology (BCB) and Human Computer Interaction (HCI) at <a href = 
-	"http://www.iastate.edu/">Iowa State </a>
-	University. My background is in Biochemistry and Math. Prior to grad school, 
+	"http://www.iastate.edu/">Iowa State 
+	University</a>. My background is in Biochemistry and Math. Prior to grad school, 
 	I worked for five (5) years at the <a href = "http://psbc.org/home/index.htm"> Puget 
 	Sound Blood Center </a>, testing donor blood products.
 	<br><br>
