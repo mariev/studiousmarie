@@ -112,7 +112,12 @@ margin: 10px 40px 0 40px;
 #statement p a{
 text-decoration: none;
 border-bottom:1px dotted #505050;
+color:#656566;
 }	
+
+#statement p a:hover{
+border-bottom:1px solid #505050;
+}
 
 #banner{
 width:300px;
