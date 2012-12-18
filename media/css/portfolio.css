@@ -67,6 +67,7 @@ color: rgb(101,101,101);
 font-weight: 300;
 font-size: 1.2em;
 text-transform:lowercase;
+font-style:bold;
 }
 
 
@@ -99,7 +100,7 @@ text-decoration:none;
 float:left;
 padding-top: 10px;
 padding-bottom: 10px;
-width: 95%;
+width: 90%;
 margin:20px 40px 0 40px;
     }
     
