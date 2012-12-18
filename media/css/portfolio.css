@@ -195,3 +195,7 @@ text-transform: lowercase;
 #archive ul, #archive li{
 list-style-type:none
 }
+
+#archive li a{
+text-decoration:none;
+}
