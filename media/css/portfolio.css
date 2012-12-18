@@ -199,8 +199,10 @@ list-style-type:none
 #archive li a{
 text-decoration:none;
 font-size:1.25em;
+color: black;
 }
 
 #archive li a:hover{
 border-bottom: 1px solid;
+
 }
