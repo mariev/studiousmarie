@@ -34,7 +34,7 @@ padding-right: 20px;
     font-size:2.5em;
     font-weight:300;
 }
-#header, #header ul, #header li, #brand h1, #statement, #intro_blurb {
+#header, #header ul, #header li, #brand h1, #statement, #intro_blurb , #archive{
     font-family: 'helvetica', 'arial', sans-serif;
     color: rgb(101,101,101);
     font-weight: 300;
@@ -96,7 +96,7 @@ color:rgb(101,101,101);
 text-decoration:none;
 }
 
-#statement{
+#statement, #archive{
 float:left;
 padding-top: 10px;
 padding-bottom: 10px;
