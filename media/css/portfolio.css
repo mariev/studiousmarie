@@ -227,6 +227,11 @@ border-bottom: 1px solid;
 
 }
 
+#archive #date{
+text-transform:lowercase;
+font-size:.8em;
+}
+
 #archive h3{
 font-size:1em;
 }

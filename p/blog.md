@@ -11,7 +11,7 @@ section: blog
 {% capture myyear %}{{post.date | date: "%Y" }}{% endcapture %}
 
 {% if "2013" == {{myyear}} %}
-<li>{{post.date | date: "%b %d" }} &raquo; 
+<li><span id = "date">{{post.date | date: "%b %d" }}</span> &raquo; 
 	<a href = "http://mariev.net/studiousmarie{{post.url}}">{{post.title}}</a></li>
 {% endif %}
 {% endfor %}
@@ -22,7 +22,7 @@ section: blog
 {% capture myyear %}{{post.date | date: "%Y" }}{% endcapture %}
 
 {% if "2012" == {{myyear}} %}
-<li>{{post.date | date: "%b %d" }} &raquo; 
+<li><span id = "date">{{post.date | date: "%b %d" }}</span> &raquo; 
 	<a href = "http://mariev.net/studiousmarie{{post.url}}">{{post.title}}</a></li>
 {% endif %}
 {% endfor %}
