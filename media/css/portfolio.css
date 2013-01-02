@@ -190,6 +190,10 @@ margin-left:50px;
   float:left;
 }
 
+#activities #author{
+	font-weight: 200;
+}
+
 #note{
   font-size: .85em;
 color: #787878;
