@@ -23,7 +23,7 @@ section: about
 	cognitive load during exploratory analysis.</p>
 	
 	<img src="https://lh5.googleusercontent.com/-QiLrs9gtDJ4/SGiHYJwQWkI/AAAAAAAAAfw/QP_lVrNjSqg/s675/IMG_0209.jpg" 
-	height=400px />
+	height=375px />
 </div>
 
 
