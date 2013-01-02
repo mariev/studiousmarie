@@ -203,8 +203,10 @@ margin-left:50px;
 color: #787878;
 text-transform: lowercase;
   } 
-  
-#archive {
+
+#archive{
+font-size:1em;
+}
 
 #archive ul, #archive li{
 list-style-type:none
