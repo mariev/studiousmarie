@@ -204,6 +204,8 @@ color: #787878;
 text-transform: lowercase;
   } 
   
+#archive {
+
 #archive ul, #archive li{
 list-style-type:none
 line-height:1.2em;
@@ -212,7 +214,7 @@ margin:0px;
 
 #archive li a{
 text-decoration:none;
-font-size:1.25em;
+font-size:1em;
 color: black;
 
 }
