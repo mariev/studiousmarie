@@ -40,6 +40,10 @@ section: pubs
     <li><span id = "author">Vendettuoli M</span>, Yin T, Schloerke B, Cook D and Hofmann H :: <span style = "font-style:italic"> Visualizing metabolomics 
     from within R </span>, Proceedings of New Mexico Bioinformatics, Science and Technology Symposium. (NMBIST'12).
      Sante Fe, NM.</li>
+    <li><span id = "author">Vendettuoli M</span> and Hofmann H :: <span id = "title">Interactive graphics in R: 
+    Enhancing Exploratory Data Analysis for Metabolomics</span>, Proceedings of ACM Conference on Bioinformatics, 
+    Computational Biology & Biomedicine. (ACM-BCB’11). Chicago, IL.</li>
+
     <li><span id = "author">Vendettuoli M</span>, Cook D and Hofmann H :: <span style = "font-style:italic">
     Visualizing Interactively from R: a metabolomics analysis pipeline</span>, Proceedings 
     of Statistical, Computational and Visualization Methods in Medical Informatics (SCVMMI'11). Dubuque, IA.</li>
@@ -47,6 +51,9 @@ section: pubs
     <span style = "font-style:italic">qtpaintgui() - An integration of Command Line and 
     Graphical User Interface</span>, Proceedings of International Conference on Bioinformatics 
     and Computational Biology (BIOCOMP'10). Las Vegas Nevada</li>
+    <li><span id = "author">Vendettuoli M</span>, Lawrence M, Cook D and Hofmann H. Graphical 
+    framework for processing GCMS data: integration of qt interfaces. Proceedings of Biotechnogy and 
+    Bioinformatics Symposium (BIOT’09). Lincoln, NB</li>
     </ol>
   </div>
   

@@ -191,7 +191,11 @@ margin-left:50px;
 }
 
 #activities #author{
-	font-weight: 200;
+	font-weight: 500s;
+}
+
+#activities #title{
+	font-style:italic;
 }
 
 #note{
