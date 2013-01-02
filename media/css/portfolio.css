@@ -215,7 +215,7 @@ margin:0px;
 padding-left: 0px;
 }
 
-#archive li a{
+#archive li a, #archive li a:visited{
 text-decoration:none;
 /*font-size:1.25em;*/
 color: #551A8B;
