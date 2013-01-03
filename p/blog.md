@@ -19,7 +19,7 @@ section: blog
 </ul>
 <!--- end future -->
 
-<h3>2013</h3>
+<!--- <h3>2013</h3> -->
 <ul>
 {% for post in site.posts %}
 {% capture myyear %}{{post.date | date: "%Y" }}{% endcapture %}

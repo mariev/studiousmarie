@@ -66,8 +66,8 @@ section: pubs
     Bioinformatics Symposium (BIOT’09). Lincoln NB</li>
     </ol>
   </div>
-  
-   <div id = "intro_blurb" style="padding:5px;font-size:.85em;" >
-   </div>
+
+<!-- <div id = "intro_blurb" style="padding:5px;font-size:.85em;" >
+   </div> -->
 </div>
     
