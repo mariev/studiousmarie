@@ -38,7 +38,6 @@ section: about
 	<div style="clear:left;height:10px">&nbsp;</div>
 	<div id = "left">contact</div>
 	<div id = "right">marie at mariev dot net</div>
-	<div style="clear:left;height:10px">&nbsp;</div>
 	<div id = "left"> &nbsp; </div>
 	<div id = "right">1620 Howe Hall, Iowa State University, Ames IA 50010</div>
 	<div style="clear:left;height:10px">&nbsp;</div>
