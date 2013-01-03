@@ -42,6 +42,7 @@ section: about
 	<div id = "left"> elsewhere </div>
 	<div id = "right"><a href = "https://plus.google.com/u/0/112244649329053689918/posts">google+</a></div>
 	<div style="clear:left;height:1px">&nbsp;</div>
+	<div id = "left"> &nbsp; </div>
 	<div id = "right"><a href = "https://github.com/mariev">github</a></div>
 	<div style="clear:left;height:1px">&nbsp;</div>
 	<div id = "left"> &nbsp; </div>
