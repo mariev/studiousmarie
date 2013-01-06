@@ -26,7 +26,8 @@ section: blog
 
 {% if "2013" == {{myyear}} %}
 <li><span id = "date">{{post.date | date: "%b %d" }}</span> &raquo; 
-	<a href = "http://mariev.net/studiousmarie{{post.url}}">{{post.title}}</a></li>
+	<a href = "http://mariev.net/studiousmarie{{post.url}}">{{post.title}}</a>
+</li>
 {% endif %}
 {% endfor %}
 </ul>
