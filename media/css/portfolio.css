@@ -238,7 +238,12 @@ font-size:.8em;
 font-size:1em;
 margin-bottom:0px;
 }
+
 #post {
 max-width:600px;
 margin-left:150px
+}
+
+#blockquote {
+background: rgb(240, 240, 240);
 }
