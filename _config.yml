@@ -1,2 +1,3 @@
 markdown: rdiscount
 future: false
+pygments: true
