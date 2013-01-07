@@ -90,6 +90,7 @@ font-size: 1.25em;
 #header li a,  #header li a:active, #right a, #intro_blurb a {
 text-decoration:none;
 color: #E1523D;
+font-weight:bold;
 }
 
 #brand a, #brand a:visited{
