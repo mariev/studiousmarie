@@ -1,5 +1,5 @@
 ---
-title: a github blog
+title: a github blog - part 1
 layout: blogpost
 tags: github webdev tutorial
 ---
@@ -27,6 +27,7 @@ index.html
 
 > http://*your-github-username*.github.com should direct to the code from index.html
 
-> **power users:**
-> Set up ophan *gh-pages* for each project repo.
-> Each project is accessed via: http://*your-github-username*.github.com/*repo-name*
+> **power users**     
+> Set up ophan *gh-pages* for each project repo. Each project is accessed via:		
+> http://*your-github-username*.github.com/*repo-name*
+
