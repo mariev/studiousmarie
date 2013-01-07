@@ -113,13 +113,13 @@ float: left;
 margin: 10px 40px 0 40px;
 }
 
-#statement p a, #post a{
+#statement p a, #post a, #tags a{
 text-decoration: none;
 /*border-bottom:1px dotted #505050;*/
 color:#E1523D;
 }	
 
-#statement p a:hover, #post a:hover{
+#statement p a:hover, #post a:hover, #tags a:hover{
 border-bottom:1px solid #348EC0;
 color: #348EC0;
 }

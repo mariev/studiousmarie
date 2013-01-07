@@ -1,5 +1,5 @@
 ---
-title: a github blog - part one
+title: a github blog
 layout: blogpost
 tags: github webdev tutorial
 ---
@@ -25,7 +25,8 @@ I also use RDiscount and Pygments.
 index.html
 	
 
-> *your-github-username*.github.com should direct to the code from index.html
+> http://*your-github-username*.github.com should direct to the code from index.html
 
-
-Next .... [configuring](http://mariev.net/studiousmarie/2013/01/06/githubblog_part2.html)
+> **power users:**
+> Set up ophan *gh-pages* for each project repo.
+> Each project is accessed via: http://*your-github-username*.github.com/*repo-name*
