@@ -1,5 +1,4 @@
 ---
-date: 2013-1-05
 title: a github blog - part one
 layout: blogpost
 tags: github, webdev, tutorial
@@ -28,5 +27,5 @@ index.html
 
 > *your-github-username*.github.com should direct to the code from index.html
 
-Next ....<br>
-populating the content structure
+
+Next .... [setting up the custom domain](http://mariev.net/studiousmarie/2013/01/06/githubblog_part2.html)
