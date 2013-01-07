@@ -28,4 +28,4 @@ index.html
 > *your-github-username*.github.com should direct to the code from index.html
 
 
-Next .... [setting up the custom domain](http://mariev.net/studiousmarie/2013/01/06/githubblog_part2.html)
+Next .... [configuring](http://mariev.net/studiousmarie/2013/01/06/githubblog_part2.html)
