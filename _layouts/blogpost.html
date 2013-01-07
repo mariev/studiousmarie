@@ -29,7 +29,15 @@
 
             {{content}}
             </div>
+        <hr style = "border-left:0; border-right:0;border-bottom:0">
+        <div id = "tags">
+        Posted in:
+        {% for taggy in page.tags %}
+            {{taggy}},
+          {% endfor %}
         </div>
+        </div>
+        
     </div>
     <br>
 

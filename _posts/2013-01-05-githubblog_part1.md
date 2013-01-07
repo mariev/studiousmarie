@@ -1,7 +1,7 @@
 ---
 title: a github blog - part one
 layout: blogpost
-tags: github, webdev, tutorial
+tags: github webdev tutorial
 ---
 
 This site is hosted via github pages. In a nutshell: easier, faster, 
