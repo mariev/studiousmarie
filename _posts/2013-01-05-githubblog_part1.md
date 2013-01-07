@@ -15,17 +15,18 @@ experience will make life easier for someone else. At the very least,
 a resource for troubleshooting.
 
 1. Repo set up
-	* If you don't already have a github account, sign up [here](http://github.com). 
-	There is [minimal] software to download, and some set up. 
-	[Documentation here](https://help.github.com/articles/set-up-git).
+	* If you don't already have a github account, [sign up](http://github.com). 
+	There is [minimal] software to [download, and some set up](https://help.github.com/articles/set-up-git).
 	* Create a new repo. Name it : *your-github-username*.github.com
-	* In the repo, create a branch named *gh-pages*. Delete the master branch
+	* In the repo, create a branch named *gh-pages* as an [orphan](https://help.github.com/articles/creating-project-pages-manually). 
+2. [Install Jekyll](https://github.com/mojombo/jekyll/wiki/install). 
+I also use RDiscount and Pygments.
+3. Sign up for a comment manager (optional). I use [Disqus](http://disqus.com/)
+4. Create the landing page. In gh-pages branch of the repo from step 1, you will need 
+index.html
 	
 
-
-2. Install Jekyll   
-3. Sign up for a comment manager (optional)   
-4. Set up directory structure   
+> *your-github-username*.github.com should direct to the code from index.html
 
 Next ....<br>
 populating the content structure
