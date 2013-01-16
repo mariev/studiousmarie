@@ -240,7 +240,6 @@ margin-bottom:0px;
 
 #post {
 max-width:600px;
-margin-left:150px
 }
 
 #post blockquote {
@@ -268,4 +267,6 @@ padding-top:10px;
 
 #tags{
 text-align:left;
+color: rgb(180,180,180);
+font-size:.75em;
 }
