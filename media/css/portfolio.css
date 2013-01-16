@@ -95,8 +95,7 @@ text-decoration:none;
 float:left;
 padding-top: 10px;
 padding-bottom: 10px;
-width: 90%;
-margin:20px 40px 0 40px;
+margin:20px 0px 0 0px;
     }
     
 #statement p{
@@ -164,13 +163,13 @@ width:75%;
 }
 
 #label{
-    width:15%;
+    width:20%;
     text-align:right;
     text-transform:uppercase;
 }
 
 #activities{
-  width:85%;
+  width:80%;
  }
  
 #activities ul{
@@ -259,7 +258,6 @@ border-left: 10px solid #348EC0;
  
  #brand{
  text-align: center;
-margin-right: 48px;
 border-top-width:1px;
 border-top-style:solid;
 
