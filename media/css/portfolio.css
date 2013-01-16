@@ -161,6 +161,8 @@ width:75%;
 #footer{
     margin:0 auto 0 auto;
     text-align:center;
+    padding-top:20px;
+    border: 1px solid rgb(240,240,240);
 }
 
 #label{
@@ -259,7 +261,7 @@ border-left: 10px solid #348EC0;
  
  #brand{
  text-align: center;
-border-top-width:1px;
-border-top-style:solid;
-
+border-bottom-width:1px;
+border-bottom-style:solid;
+padding-top:10px;
 }
