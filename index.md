@@ -7,7 +7,7 @@ section: about
 
 
 <div id="statement">
-	<p> I am a PhD candidate in the interdisciplinary programs of Bioinformatics and 
+	I am a PhD candidate in the interdisciplinary programs of Bioinformatics and 
 	Computational Biology (BCB) and Human Computer Interaction (HCI) at <a href = 
 	"http://www.iastate.edu/">Iowa State 
 	University</a>. My background is in Biochemistry and Math. Prior to grad school, 
@@ -20,7 +20,7 @@ section: about
 	java, html/css, LaTeX and VBA to create accessible working environments.
 	<br><br>
 	I am also interested in leveraging interactive visualization for the reduction of 
-	cognitive load during exploratory analysis.</p>
+	cognitive load during exploratory analysis.
 	
 </div>
 
