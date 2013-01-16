@@ -253,6 +253,7 @@ border-left: 10px solid #348EC0;
 #header{
  width:30%;
  float:left;
+ min-height:500px;
  }
  
  #brand{
