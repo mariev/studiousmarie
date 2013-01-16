@@ -22,8 +22,6 @@ section: about
 	I am also interested in leveraging interactive visualization for the reduction of 
 	cognitive load during exploratory analysis.</p>
 	
-	<img src="https://lh5.googleusercontent.com/-QiLrs9gtDJ4/SGiHYJwQWkI/AAAAAAAAAfw/QP_lVrNjSqg/s675/IMG_0209.jpg" 
-	height=375px />
 </div>
 
 
@@ -45,7 +43,6 @@ section: about
 	<div id = "left"> elsewhere </div>
 	<div id = "right"><a href = "https://plus.google.com/u/0/112244649329053689918/posts">google+</a></div>
 	<div style="clear:left;height:1px">&nbsp;</div>
-	<div id = "left"> &nbsp; </div>
 	<div id = "right"><a href = "https://github.com/mariev">github</a></div>
 	<div style="clear:left;height:1px">&nbsp;</div>
 	<div id = "left"> &nbsp; </div>
