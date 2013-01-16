@@ -6,10 +6,10 @@
    <title>{{page.title}}</title>
 </head>
 <body>
-    <div id = "topnav">
- 
+   <div id = "topnav">
+           <div id ="brand">{{page.title}}</div>
+   
     </div>
-    
     <div id = "mainblock">
         <div id = "header">
             <ul>
@@ -21,7 +21,7 @@
                  
             </ul>
             
-			<div id ="brand">{{page.title}}</div>
+			
 
         </div>
         <div id = "content">
@@ -29,21 +29,20 @@
 
             {{content}}
             </div>
-        <hr style = "border-left:0; border-right:0;border-bottom:0">
-        <div id = "tags">
-        Posted in:
-        {% for taggy in page.tags %}
-            {{taggy}},
-          {% endfor %} <br>
-        Next: <a href = "http://mariev.net/studiousmarie{{page.next.url}}">{{page.next.title}}</a>
-        </div>
-        </div>
+       
         
     </div>
     <br>
 
     
 <div id = "footer" style = "clear:left">
+<div id = "tags">
+        Posted in:
+        {% for taggy in page.tags %}
+            {{taggy}},
+          {% endfor %} <br>
+        Next: <a href = "http://mariev.net/studiousmarie{{page.next.url}}">{{page.next.title}}</a>
+        </div>
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png" /></a>
 </div>
 <br>
