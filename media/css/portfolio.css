@@ -166,6 +166,7 @@ width:75%;
 #label{
     text-align:right;
     text-transform:uppercase;
+    width:100%;
 }
 
 #activities{
