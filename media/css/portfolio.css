@@ -49,6 +49,7 @@ font-weight:bold;
 padding-left:0;
 margin:0;
 margin-top:20px;
+margin-right:13.83%;
 }
 
 #header li{
@@ -70,7 +71,6 @@ font-style:bold;
 
 margin-bottom: 0px;
 
-margin-right: 13.83%;
 font-size: 1.25em;
 }
 
@@ -256,3 +256,8 @@ border-left: 10px solid #348EC0;
  width:30%;
  float:left;
  }
+ 
+ #brand{
+ text-align: right;
+margin-right: 48px;
+}
