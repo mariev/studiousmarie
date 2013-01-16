@@ -94,8 +94,9 @@ text-decoration:none;
 #statement, #archive{
 float:left;
 padding-top: 10px;
-padding-bottom: 10px;
+padding-bottom: 30px;
 margin:20px 0px 0 0px;
+padding-right:40px;
     }
     
 #statement p{
@@ -163,13 +164,11 @@ width:75%;
 }
 
 #label{
-    width:20%;
     text-align:right;
     text-transform:uppercase;
 }
 
 #activities{
-  width:80%;
  }
  
 #activities ul{
