@@ -29,7 +29,7 @@ section: about
 	<div id = "left">research</div>
 	<div id="right">I intern 20 hrs/week at the USDA Center for Veterinary Biologics, 
 		Statistics Section
-		<br>
+		<br><br>
 		I work with <a href = "http://www.public.iastate.edu/~hofmann/"> Professor Heike 
 		Hofmann </a> developing new static and interactive visualizations for displaying data.
 	</div>
