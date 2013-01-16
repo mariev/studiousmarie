@@ -75,7 +75,7 @@ font-size: 1.25em;
 
     
 #section #selected a, #header li a:hover, #right a:hover, #intro a:hover{
-    color:#348EC0;
+    background-color:#348EC0;
     
 }
     
