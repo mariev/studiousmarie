@@ -28,7 +28,6 @@ font-weight:bold;
 
 #brand h1{
     width:100%;
-    text-align:right;
     line-height:.5em;
     margin:0;
     font-size:2.5em;
@@ -258,6 +257,9 @@ border-left: 10px solid #348EC0;
  }
  
  #brand{
- text-align: right;
+ text-align: center;
 margin-right: 48px;
+border-top-width:1px;
+border-top-style:solid;
+
 }

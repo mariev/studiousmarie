@@ -47,5 +47,7 @@ section: about
 	<div style="clear:left;height:1px">&nbsp;</div>
 	<div id = "left"> &nbsp; </div>
 	<div id = "right">feed</div>
+	<div style="clear:left;height:1px">&nbsp;</div>
+
 </div>
 
