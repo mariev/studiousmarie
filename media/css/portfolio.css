@@ -266,6 +266,7 @@ border-left: 10px solid #348EC0;
 border-bottom-width:1px;
 border-bottom-style:solid;
 padding-top:10px;
+min-height:60px;
 }
 
 #tags{
