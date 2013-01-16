@@ -60,8 +60,6 @@ section: cv
         
         </div>
       <br>
-      <hr>
-      <div id = "intro_blurb" style="padding:5px;font-size:.85em;width:100%;" >
+
       see my full <a href = "">CV</a>
-      </div>
 </div>
