@@ -61,5 +61,5 @@ section: cv
         </div>
       <br>
 
-      <div>see my full <a href = "">CV</a></div>
+      <div style="clear:left;">see my full <a href = "">CV</a></div>
 </div>
