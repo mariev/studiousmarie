@@ -1,5 +1,4 @@
 ---
-date: 3013-01-10
 title: a github blog - part two
 layout: blogpost
 tags: github webdev tutorial
