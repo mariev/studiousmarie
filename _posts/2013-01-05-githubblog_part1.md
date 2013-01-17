@@ -22,7 +22,7 @@ a resource for troubleshooting.
 I also use RDiscount and Pygments.
 3. Sign up for a comment manager (optional). I use [Disqus](http://disqus.com/)
 4. Create the landing page. In gh-pages branch of the repo from step 1, you will need 
-index.html
+index.html 
 	
 
 > http://*your-github-username*.github.com should direct to the code from index.html
@@ -30,4 +30,5 @@ index.html
 > **power users**     
 > Set up ophan *gh-pages* for each project repo. Each project is accessed via:		
 > http://*your-github-username*.github.com/*repo-name*
+>
 
