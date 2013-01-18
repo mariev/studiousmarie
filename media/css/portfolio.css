@@ -59,8 +59,8 @@ margin-right:13.83%;
 #content h1{
 font-family: 'helvetica', 'arial', sans-serif;
 color: rgb(101,101,101);
-font-weight: 300;
-font-size: 1.2em;
+font-weight: bold;
+font-size: 1.5em;
 text-transform:lowercase;
 font-style:bold;
 }
@@ -126,7 +126,7 @@ width:50%;
 margin: 0;
 float:left;
 clear:right;
-font-size:.85em;
+font-size:11pt;
 }
 
 #intro_blurb{
