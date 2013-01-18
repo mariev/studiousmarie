@@ -6,8 +6,8 @@ layout: nil
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 
   <channel>
-    <title>^random musings</title>
-    <link>http://mariev.net/blog</link>
+    <title>studiousmarie</title>
+    <link>http://mariev.net/studiousmarie</link>
     <atom:link href="http://mariev.net/studiousmarie/feed/index.xml" rel="self" type="application/rss+xml" />
     <description>feed for blog studiousmarie</description>
     <language>en-us</language>
