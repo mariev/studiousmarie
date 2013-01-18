@@ -1,5 +1,4 @@
 ---
-date: 3013-01-20
 title: installing cranvas on Mountain Lion (Mac OSX 10.8.2)
 layout: blogpost
 tags: cranvas tutorial R
@@ -15,7 +14,7 @@ breaks due to development changes.
 
 ###### My system
 
-Mac OSX (10.8.2)	
+OSX (10.8.2) :: Mountain Lion
 R 2.15.2	
 qtbase 1.0.6	
 qtpaint 0.9.0	

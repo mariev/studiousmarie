@@ -1,0 +1,29 @@
+---
+layout: nil
+---
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="http://mariev.net/media/css/rss.css" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
+  <channel>
+    <title>^random musings</title>
+    <link>http://mariev.net/blog</link>
+    <atom:link href="http://mariev.net/studiousmarie/feed/index.xml" rel="self" type="application/rss+xml" />
+    <description>feed for blog studiousmarie</description>
+    <language>en-us</language>
+    <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+    <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
+
+    {% for post in site.posts %}
+    <item>
+      <title>{{ post.title }}</title>
+      <link>http://mariev.net/studiousmarie{{ post.url }}</link>
+      <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+      <author>Marie </author>
+      <guid>http://mariev.net/studiousmarie{{ post.id }}</guid>
+      <description>{{ post.content | strip_html | truncate: 100 | xml_escape }}</description>
+    </item>
+    {% endfor %}
+
+  </channel> 
+</rss>
