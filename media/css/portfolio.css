@@ -241,10 +241,14 @@ margin-bottom:0px;
 
 #post {
 max-width:600px;
+line-height:1.3em;
 }
 
 
-
+h6 {
+margin-top:0;
+margin-bottom:0;
+}
 
 #post blockquote {
 background: rgb(240, 240, 240);

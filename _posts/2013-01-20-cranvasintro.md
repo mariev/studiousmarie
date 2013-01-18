@@ -37,7 +37,7 @@ This assumes that R and RStudio is up and running
 	If there are errors indicating that the Qt dynamic library cannot be found, try:
 
 	{% highlight r %}
-	install.packages('package_name', repos = NULL, type = 'source', 
-                 INSTALL_opts = '--no-multiarch'){% endhighlight %}
+	install.packages('package_name', repos = NULL, 
+		type = 'source', INSTALL_opts = '--no-multiarch'){% endhighlight %}
                  
 *Note: any packages that depend on this package will also have to be installed using ```INSTALL_opts = '--no-multiarch'```*
