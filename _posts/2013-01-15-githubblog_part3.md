@@ -4,7 +4,7 @@ layout: blogpost
 tags: github webdev tutorial
 ---
 
-In the [last post](http://mariev.net/studiousmarie{{page.previous.url}}), I 
+[Last time](http://mariev.net/studiousmarie{{page.previous.url}}), I 
 showed you how to organize your website to find the github host via a custom 
 domain and some basic infrastructure.
 
