@@ -34,7 +34,7 @@ font-weight:bold;
     font-weight:300;
 }
 #header, #header ul, #header li, #brand h1, #statement, #intro_blurb , 
-#archive, #post, #tags{
+#archive, #post, #tags, #port{
     font-family: 'helvetica', 'arial', sans-serif;
     color: rgb(101,101,101);
     font-weight: 300;
