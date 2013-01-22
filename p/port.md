@@ -9,7 +9,7 @@ section: port
 <ul>
 	<li><a href = "https://github.com/mariev/chromatoplotsgui">chromatoplotsgui</a> :: an interactive, graphical approach to metabolomics analysis</li>
 	<li>CVBdataFormats :: data preprocessing at	CVB Statistics</li>
-	<li>PF & MF :: statistical calculations for prevented and mitigated fractions</li>
+	<li><a href = "http://cran.r-project.org/web/packages/PF/index.html">PF</a> & MF :: statistical calculations for prevented and mitigated fractions</li>
 </ul>
 
 <h3> User studies </h3>
