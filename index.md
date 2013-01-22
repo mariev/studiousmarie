@@ -47,7 +47,7 @@ section: about
 	<div id = "right"><a href = "https://github.com/mariev">github</a></div>
 	<div style="clear:left;height:1px">&nbsp;</div>
 	<div id = "left"> &nbsp; </div>
-	<div id = "right">feed</div>
+	<div id = "right"><a href = "http://mariev.net/studiousmarie/feed">feed</a></div>
 	<div style="clear:left;height:1px">&nbsp;</div>
 
 </div>
