@@ -5,10 +5,24 @@ section: port
 
 ---
 <div id = "port">
-### Web design
+<h3> <span style = "font-family:mono;">R</span> packages </h3>
+<ul>
+	<li>chromatoplotsgui</li>
+	<li>CVBdataFormats</li>
+	<li>PF & MF</li>
+</ul>
 
-### R packages
+<h3> User studies </h3>
+<ul>
+	<li>Common Angle Charts </li>
+</ul>
 
-### User studies
-
+<h3> Web design </h3>
+<ul>
+	<li><a href = "http://mariev.net/studiousmarie">studiousmarie</a> :: web presence 
+		for Marie Vendettuoli</li>
+	<li><a href = "http://mariev.net/blog">Random Musings</a> :: 
+		a lifestyle blog</li>
+		
+</ul>
 </div>
