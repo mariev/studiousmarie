@@ -8,8 +8,8 @@ By now you should have a site with one or more each of static pages, blog posts,
 and templates. You know how to start a Jekyll server to view local draft posts. And
 you understand the filename nomenclature for scheduling posts.
 
-But blogging is all about an easy conversation, no? I visit your RSS reader, you post
-a reply, and so forth. Really, if you can master css, this will be a walk in the park.
+But blogging is all about an easy conversation, no? My posts visit your RSS reader, you post
+a reply, and so forth. Really, if you can master CSS, this will be a walk in the park.
 
 ### Enabling the RSS feed
 In *gh-pages* create the folder ```feed``` and within that, the file ```index.xml```. 
@@ -75,6 +75,12 @@ link to the feed
 	href="http://mariev.net/studiousmarie/feed" />
 {% endhighlight %}
 
+
+If the RSS extension is installed on Chrome [or RSS icon in Firefox], you should see
+an indicator of feed detection on the right side of the url bar.
+
+
+<img width = 500px src = "https://lh5.googleusercontent.com/-8tJN7t-9yAU/UP8PkK19SWI/AAAAAAAAEdM/4t3ForWgzVQ/s640/rss.png" />
 ### Adding comment plugin
 The instructions here use the [Disqus](http://disqus.com) platform, which
 offers free comment hosting independent of your site host. This separation 
