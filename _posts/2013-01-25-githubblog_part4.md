@@ -21,19 +21,25 @@ stand-alone pages. The key elements to include are:
 2. Specify the xml version and link to the ```css```
 3. Designate the rss version	
 4. Place content inside the ```<channel>```  &  ```</channel>``` tags	
-5. At content start, include:
-
-{% highlight xml %}{% raw %}
-<title>studiousmarie</title>
-<link>http://mariev.net/studiousmarie</link>
-<atom:link href="http://mariev.net/studiousmarie/feed/index.xml" 
-	rel="self" type="application/rss+xml" />
-<description>feed for blog studiousmarie</description>
-<language>en-us</language>
-<pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-<lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
-{% endraw %}	
-{% endhighlight %}
+5. At content start, include:	
+	- title
+	- link to landing page
+	- description
+	- language encoding
+	- publication date
+	- last build date
+	{% highlight xml %}{% raw %}
+	<title>studiousmarie</title>
+	<link>http://mariev.net/studiousmarie</link>
+	<atom:link href="http://mariev.net/studiousmarie/feed/index.xml" 
+		rel="self" type="application/rss+xml" />
+	<description>feed for blog studiousmarie</description>
+	<language>en-us</language>
+	<pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+	<lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
+	{% endraw %}	
+	{% endhighlight %}
+6. In the 
 
 
 
