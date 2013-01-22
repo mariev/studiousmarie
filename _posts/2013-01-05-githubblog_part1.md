@@ -1,5 +1,5 @@
 ---
-title: a github blog - part one
+title: a github blog // basic initialization
 layout: blogpost
 tags: github webdev tutorial
 ---

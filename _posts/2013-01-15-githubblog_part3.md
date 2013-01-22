@@ -1,5 +1,5 @@
 ---
-title: a github blog - part three
+title: a github blog // posts infrastructure
 layout: blogpost
 tags: github webdev tutorial
 ---
