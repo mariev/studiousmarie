@@ -7,9 +7,9 @@ section: port
 <div id = "port">
 <h3> <span style = "font-family:mono;">R</span> packages </h3>
 <ul>
-	<li>chromatoplotsgui</li>
-	<li>CVBdataFormats</li>
-	<li>PF & MF</li>
+	<li><a href = "https://github.com/mariev/chromatoplotsgui">chromatoplotsgui</a> :: an interactive, graphical approach to metabolomics analysis</li>
+	<li>CVBdataFormats :: data preprocessing at	CVB Statistics</li>
+	<li>PF & MF :: statistical calculations for prevented and mitigated fractions</li>
 </ul>
 
 <h3> User studies </h3>
