@@ -1,6 +1,5 @@
 ---
-date: 3013-01-25
-title: a github blog - part four
+title: a github blog // RSS and commenting
 layout: blogpost
 tags: github webdev tutorial
 ---
@@ -82,7 +81,8 @@ offers free comment hosting independent of your site host. This separation
 is important, because it allows migration of your site in the future without 
 losing valuable conversations. 
 
-When you register your site, Disqus will prompt to select a platform. Choose 
+When you register your site, Disqus will prompt to select a platform to customize
+code. Choose 
 "universal". Follow the directions to paste code into the relevant layout
 template file.
 
