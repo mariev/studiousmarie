@@ -1,0 +1,313 @@
+<!--
+Google IO 2012 HTML5 Slide Template
+
+Authors: Eric Bidelman <ebidel@gmail.com>
+         Luke Mahé <lukem@google.com>
+
+URL: https://code.google.com/p/io-2012-slides
+-->
+
+<!--
+setwd("/Users/marie/Documents/repos/studiousmarie/p")
+library(knitr)
+knit(input = "/Users/marie/Documents/repos/studiousmarie/knitr/stat_graphics_SP2013.Rhtml", output = "/Users/marie/Documents/repos/studiousmarie/p/stat_graphics_SP2013.html" )
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Interactive Visualizations for Metabolomics Analysis</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=8" />
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">-->
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  <!--This one seems to work all the time, but really small on ipad-->
+  <!--<meta name="viewport" content="initial-scale=0.4">-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" media="all" href="../media/css/default.css">
+  <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="../media/css/phone.css">
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
+  <script data-main="../media/js/slides" src="../media/js/require-1.0.8.min.js"></script>
+</head>
+<body style="opacity: 0">
+
+
+<slides class="layout-widescreen">
+
+  <slide class="logoslide nobackground">
+    <article class="flexbox vcenter">
+      <span><img src="http://www.stuorg.iastate.edu/mvball/Style/IASTATE_Atheletic_Logo.png"></span>
+    </article>
+  </slide>
+
+  <slide class="title-slide segue nobackground">
+    <aside class="gdbar"><img src=""></aside>
+    <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+    <hgroup class="auto-fadein">
+      <h1 data-config-title><!-- populated from slide_config.json --></h1>
+      <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
+      <p data-config-presenter><!-- populated from slide_config.json --></p>
+    </hgroup>
+  </slide>
+
+<slide>
+    <hgroup>
+      <h2>Organization of this talk</h2>
+    </hgroup>
+    <article>
+      <ol>
+        <li>Biologists' Perspective
+        <ul>
+          <li>What is Metabolomics?</li>
+          <li>Collecting data</li>
+          <li>Challenges of analysis</li>
+          <li>Demo</li>
+        </ul></li>
+        <li>Developers' Perspective
+        <ul>
+          <li>How to customize cranvas plots</li>
+          <li>Troubleshooting a workflow</li>
+        </ul></li>
+      </ol>
+    </article>
+  </slide>
+  
+  <slide class="segue dark quote nobackground">
+    <aside class="gdbar right bottom"><img src=""></aside>
+    <article class="flexbox vleft auto-fadein">
+      <q>
+        the systematic study of the unique chemical fingerprints that specific cellular processes leave behind
+      </q>
+      <div class="author">
+        Bennett Daviss<br>
+        The Scientist <b>19</b> (8): 25–28
+      </div>
+    </article>
+  </slide>
+  
+  <slide>
+  
+    <hgroup>
+      <!--<h2>Slide with Image</h2> -->
+    </hgroup>
+    <article class="flexbox vcenter">
+      <img height = '90%' src="../media/figures/Metabolomics_schema.png" alt="Description" title="Description">
+     <!-- <footer class="source">source: place source info here</footer> -->
+    </article>
+  </slide>
+
+
+  <slide>
+  <aside class="note">
+      <section>
+       GC separates by passing the volatized material through a thin column, rate determined by:
+          <ul>
+            <li>physical/chemical properties</li>
+            <li>interaction w/ column packing material</li>
+          </ul>
+        
+      </section>
+    </aside>
+    <hgroup>
+      <!--<h2>Slide with Image</h2> -->
+    </hgroup>
+    <article class="flexbox vcenter">
+      <img height = '90%' src="../media/figures/GCms_schematic.gif" alt="Description" title="Description">
+     <!-- <footer class="source">source: place source info here</footer> -->
+    </article>
+  </slide>
+<slide>
+  
+    <hgroup>
+      <!--<h2>Slide with Image</h2> -->
+    </hgroup>
+    <article class="flexbox vcenter">
+     <img src="http://latex.codecogs.com/gif.latex?\huge  \dpi{200} \textup{\mathrm{Newton}} = \textup{\mathrm{Lorentz}}" /><br><br>
+      <img src="http://latex.codecogs.com/gif.latex?\huge \dpi{200}  m / z   = \frac{\vec{E} + \vec{v} \times \vec{B}}{\vec{a}}" border="0"/>
+     <!-- <footer class="source">source: place source info here</footer> -->
+    </article>
+  </slide>
+  
+  
+  <slide>
+  <aside class="note">
+      <section>
+       <ul><li>MS output can be displayed as histogram</li>
+       <li> The peak pattern (m/z values, ratio of intensities) are a fingerprint to identify</li>
+       <li>Already see some issues (e.g. m/z values aren't clean); what else?</li>
+       </ul>
+        
+      </section>
+    </aside>
+    <hgroup>
+      <!--<h2>Slide with Image</h2> -->
+    </hgroup>
+    <article class="flexbox vcenter">
+     <img src= "../media/figures/angio.gif">
+     <!-- <footer class="source">source: place source info here</footer> -->
+    </article>
+  </slide>
+  
+  <slide>
+    <hgroup>
+      <h2> Acknowledged issues with analysis</h2>
+    </hgroup>
+    <article>
+      <ul>
+        <li>Poorly resolved peaks</li>
+        <li>Peak shape?</li>
+        <li>Intensity variation</li>
+        <li>Drift between spectra, instruments</li>
+        <li>Biological variance</li>
+        <li>The combinatorics problem</li>
+      </ul>
+    </article>
+  </slide>
+  
+  <slide>
+    <hgroup>
+      <h2> Other issues with analysis</h2>
+    </hgroup>
+    <article>
+      <ul>
+        <li>"black box" approach</li>
+        <li>multiple software, defaults</li>
+        <li>documentation, reproducibility</li>
+      </ul>
+    </article>
+  </slide>
+  
+  <slide class="segue dark quote nobackground">
+    <article class="flexbox vleft auto-fadein">
+      <q>
+
+  
+  the Automated Mass Spectral Deconvolution and Identification System (AMDIS) spectral deconvolution software (Version 2.62) from NIST (National Institute of Standards and Technology) was used to process the total ion chromatogram and the EI-MS spectra of each GC peak.       </q>
+      <div class="author" style="
+    bottom: 20px;
+    line-height: 1em;
+    font-size: 16px;
+">
+Psychogios N, Hau DD, Peng J, Guo AC, Mandal R, et al. (2011) The Human Serum Metabolome. <br> PLoS ONE 6(2): e16957. doi:10.1371/journal.pone.0016957
+      </div>
+    </article>
+  </slide>
+
+  
+  <slide>
+    <hgroup>
+      <h1> Demo time!</h1>
+    </hgroup>
+    <article>
+      Find the version of <code>chromatoplotsGUI</code> used in this presentation at: <br><br><a href = "https://github.com/mariev/chromatoplotsgui/tree/stat-graphics-SP2013">https://github.com/mariev/chromatoplotsgui/tree/stat-graphics-SP2013</a><br><br>
+<pre class="prettyprint" data-lang="R">
+library(chromatoplotsgui)
+library(chromatoplots)
+setwd("chromatoplotsgui/data/raw/treatment_0")
+raw1 <- loadSample(dir())
+prof <- genProfile(raw1)
+cor <- removeBaseline(prof, 'median', scanrad = 100)
+## peaks <- findPeaks(cor, 'gauss')
+## save(peaks, file = 'peaks.rda')
+load("chromatoplotsgui/data/peaks.rda")
+cgfindPeaksPlot(peaks, cor, 201)
+</pre>
+    </article>
+  </slide>
+  
+  
+  <slide class="segue dark nobackground">
+    
+    <hgroup class="auto-fadein">
+      <h2>Developer Perspective</h2>
+    </hgroup>
+  </slide>
+
+<slide>
+    <hgroup>
+      <h1> Want :: customize existing plots from <code>cranvas</code></h1>
+    </hgroup>
+    <article class="smaller">
+<pre class="prettyprint" data-lang="R">
+require(cranvas)
+require(qtpaint)
+
+## the cranvas plot
+myplot <- qscatter(data = qdata(iris), x = Sepal.Length, y = Sepal.Width )
+
+## define new handlers
+newpaint <- function(layer, painter){...}
+newhover <- function(layer, event){...}
+newkeyPress <- function(layer, event){...}
+
+## create the layer
+newlayer <- qlayer(paintFun = newpaint,
+                      hoverMoveFun = newhover,
+                      keyPressFun = newkeyPress,
+                      limits = qrect(myplot$meta$limits))
+                      
+## add/sync layer to cranvas plot
+myplot$layerList[[1]][1,2] <- newlayer
+sync_limits(myplot$meta, newlayer)
+
+## push the plot
+myplot
+</pre>
+    </article>
+  </slide>
+  <slide>
+    <hgroup>
+      <h1> Want :: validation of workflow</h1>
+    </hgroup>
+    <article >
+    Not every instance of <img src="http://latex.codecogs.com/gif.latex?\inline \dpi{200} rt \times m/z"/> is populated, so one of the first steps is filling empty positions with a <code>baselevel</code>. 
+    <ul>
+      <li>Good <code>baselevel</code> value :: allows for distinguishing between minimum observed and auto-populated</li>
+      <li>Weak choice :: set <code>baselevel</code> equal to minimum of observations</li>
+    </ul>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src = "../media/figures/loadsamplenew.png" width = 300px />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src = "../media/figures/genprofile.png" width = 300px />
+    </article>
+    </slide>
+  <slide class="thank-you-slide segue nobackground">
+    <aside class="gdbar right"><img src=""></aside>
+    <article class="flexbox vleft auto-fadein">
+      <h2>&lt;Thank You!&gt;</h2>
+      <!-- <p>Important contact information goes here.</p> -->
+    </article>
+    <p class="auto-fadein" data-config-contact>
+      <!-- populated from slide_config.json -->
+    </p>
+  </slide>
+
+  
+  <slide class="logoslide nobackground">
+    <article class="flexbox vcenter">
+      <span><img height = 60px, src=""></span>
+    </article>
+  </slide>
+
+  <slide class="backdrop"></slide>
+
+</slides>
+
+<script>
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-XXXXXXXX-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+<!--[if IE]>
+  <script src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+  <script>CFInstall.check({mode: 'overlay'});</script>
+<![endif]-->
+</body>
+</html>
