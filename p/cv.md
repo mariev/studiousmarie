@@ -14,7 +14,7 @@ section: cv
           <ul><li> Bioinformatics and Computational Biology</li>
              <li>Human Computer Interaction</li>
            </ul></li>
-        <li> <b>MBA. </b>Health Care Management :: University of Phoenix :: 2011</span></li>
+        <li> <b>MBA. </b>Health Care Management :: University of Phoenix :: 2010</span></li>
         <li> <b>BS.</b> Biochemistry :: University of Washington, Seattle :: 2003</a></li>
       </ul>
      
