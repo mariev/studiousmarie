@@ -52,7 +52,7 @@ section: cv
       <div id = "activities">
         
         <ul>
-        <li><b>Pathways Intern</b> :: 2010 - present</li>
+        <li><b>SCEP Intern</b> :: 2010 - present</li>
         <li><b>IGERT</b> :: 2008 - 2010</li>
         <li><b>NASA Space Grant</b> :: 2000 - 2003</li>
         <li><b>Tollentino Scholarship</b> :: 2000 - 2001</li>
