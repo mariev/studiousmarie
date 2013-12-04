@@ -10,7 +10,7 @@ section: cv
     </div>
     <div id = "activities">
       <ul>
-        <li> <b>PhD. </b>Iowa State University :: Summer 2013 (anticipated)
+        <li> <b>PhD. </b>Iowa State University :: Summer 2013 
           <ul><li> Bioinformatics and Computational Biology</li>
              <li>Human Computer Interaction</li>
            </ul></li>
@@ -26,7 +26,7 @@ section: cv
     </div>
     <div id = "activities">
       <ul>
-        <li><b>Statistical Programmer </b>:: USDA APHIS Center for Veterinary Biologics :: 2010 - present</li>
+        <li><b>Statistical Programmer </b>:: USDA APHIS Center for Veterinary Biologics :: 2010 - 2013</li>
         <li><b>Graduate Research Assistant</b> :: NSF/IGERT :: 2008 - 2010</li>
         <li><b>Undergraduate Researcher</b> :: University of Washington :: 2000 - 2003</li>
        </ul>
@@ -38,6 +38,7 @@ section: cv
     </div>
     <div id = "activities">
        <ul>
+        <li><b>Statistical Programmer</b>, Statistics :: USDA APHIS :: 2013 - present </li>
         <li><b>Technologist</b>, Donor Testing :: Puget Sound Blood Center :: 2005 - 2008</li>
         <li><b>Technical Assistant</b>, Donor Testing :: Puget Sound Blood Center :: 2004-2005</li>
         <li><b>Research Engineer</b> :: University of Washington :: 2003-2004</li>
@@ -52,7 +53,7 @@ section: cv
       <div id = "activities">
         
         <ul>
-        <li><b>SCEP Intern</b> :: 2010 - present</li>
+        <li><b>SCEP Intern</b> :: 2010 - 2013</li>
         <li><b>IGERT</b> :: 2008 - 2010</li>
         <li><b>NASA Space Grant</b> :: 2000 - 2003</li>
         <li><b>Tollentino Scholarship</b> :: 2000 - 2001</li>
