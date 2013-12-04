@@ -31,7 +31,6 @@ section: about
 
 	<div id = "left">contact</div>
 	<div id = "right">marie at mariev dot net</div>
-	<div id = "left"> &nbsp; </div>
 	<div style="clear:left;height:10px">&nbsp;</div>
 	<div id = "left"> elsewhere </div>
 	<div id = "right"><a href = "https://plus.google.com/u/0/112244649329053689918/posts">google+</a></div>
