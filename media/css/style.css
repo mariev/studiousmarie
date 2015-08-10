@@ -188,3 +188,8 @@ ul li a{
   display:inline;
   background: lightgrey;
 }
+
+brand a:hover{
+  text-decoration: none;
+  
+}
