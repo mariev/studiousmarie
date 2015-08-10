@@ -178,7 +178,7 @@ blockquote:after {
 ul {
   padding-left:0px;
 }
-ul li{
+#header ul li{
   display: inline;
   padding: 10px;
 }
@@ -186,6 +186,7 @@ ul li{
 ul li a{
   padding: 10px;
 }
+
 #selected{
   display:inline;
   background: lightgrey;
