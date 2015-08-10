@@ -226,10 +226,6 @@ slide.fill img {
   background: transparent;
 }
 
-/* line 94, ../scss/default.scss */
-body {
-  background: black;
-}
 
 /* line 98, ../scss/default.scss */
 slides > slide {
