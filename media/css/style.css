@@ -175,21 +175,25 @@ blockquote:before {
 blockquote:after {
   position: absolute;
 }
-#header ul {
+#topnav ul {
   padding-left:0px;
 }
-#header ul li{
+#topnav ul li{
   display: inline;
   padding: 10px;
 }
 
-#header ul li a{
+#topnav ul li a{
   padding: 10px;
 }
 
 #selected{
   display:inline;
   background: lightgrey;
+}
+#brand{
+  float:left;
+  margin-right:150px;
 }
 
 #brand a{
