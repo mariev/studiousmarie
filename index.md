@@ -27,19 +27,5 @@ section: about
 </div>
 
 
-<div id = "intro_blurb" >
 
-	<div id = "left">contact</div>
-	<div id = "right">mariecv26 at gmail</div>
-	<div style="clear:left;height:10px">&nbsp;</div>
-	<div id = "left"> elsewhere </div>
-	<div id = "right"><a href = "https://plus.google.com/u/0/112244649329053689918/posts">google+</a></div>
-	<div style="clear:left;height:1px">&nbsp;</div>
-	<div id = "left"> &nbsp; </div>
-	<div id = "right"><a href = "https://github.com/mariev">github</a></div>
-	<div style="clear:left;height:1px">&nbsp;</div>
-	<div id = "left"> &nbsp; </div>
-	<div style="clear:left;height:1px">&nbsp;</div>
-
-</div>
 
