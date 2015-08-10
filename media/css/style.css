@@ -181,6 +181,9 @@ ul li{
   padding: 10px;
 }
 
+ul li a{
+  padding: 10px;
+}
 #selected{
   display:inline;
   background: lightgrey;
