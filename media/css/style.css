@@ -176,7 +176,7 @@ blockquote:after {
   position: absolute;
 }
 #topnav ul {
-  padding-left:0px;
+  list-style:none;
 }
 #topnav ul li{
   display: inline;
