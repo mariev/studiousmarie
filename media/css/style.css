@@ -178,5 +178,10 @@ blockquote:after {
 
 ul li{
   display: inline;
+  padding: 10px;
 }
+
+selected{
+  display:inline;
+  background: lightgrey;
 }
