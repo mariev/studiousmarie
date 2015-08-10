@@ -178,10 +178,6 @@ blockquote:after {
 #topnav ul {
   list-style:none;
 }
-#topnav ul li{
-  display: inline;
-  padding: 10px;
-}
 
 #topnav ul li a{
   padding: 10px;
