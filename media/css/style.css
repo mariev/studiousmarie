@@ -175,7 +175,7 @@ blockquote:before {
 blockquote:after {
   position: absolute;
 }
-ul {
+#header ul {
   padding-left:0px;
 }
 #header ul li{
@@ -183,7 +183,7 @@ ul {
   padding: 10px;
 }
 
-ul li a{
+#header ul li a{
   padding: 10px;
 }
 
