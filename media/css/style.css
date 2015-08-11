@@ -201,3 +201,13 @@ blockquote:after {
   border-bottom-style: solid;
   
 }
+
+#yr{
+  float:right;
+}
+
+#emp{
+  font-size:0.85em;
+  font-style:italic;
+  
+}
