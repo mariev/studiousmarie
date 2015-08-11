@@ -212,3 +212,9 @@ blockquote:after {
   font-style:italic;
   
 }
+
+#author{
+  font-size:0.85em;
+  font-transform:uppercase;
+}
+}
