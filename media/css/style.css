@@ -10,7 +10,7 @@ body {
   font-family: "PT Serif", serif;
   margin: 1em auto 4em auto;
   position: relative;
-  width: 960px;
+  width: 750px;
 }
 
 header,
@@ -85,9 +85,6 @@ body > blockquote {
   width: 640px;
 }
 
-li {
-  width: 680px;
-}
 
 a {
   color: steelblue;
@@ -175,23 +172,49 @@ blockquote:before {
 blockquote:after {
   position: absolute;
 }
-ul {
-  padding-left:0px;
+#topnav ul {
+  list-style:none;
+  padding-top:10px;
 }
-ul li{
-  display: inline;
+
+#topnav ul li a{
   padding: 10px;
 }
 
-ul li a{
-  padding: 10px;
-}
 #selected{
   display:inline;
   background: lightgrey;
+}
+#brand{
+  float:left;
+  margin-right:150px;
 }
 
 #brand a{
   text-decoration: none;
   
+}
+
+#label {
+  font-size:1.25em;
+  font-family: "Helvetica", "Arial", "sans-serif";
+  border-bottom-width: thin;
+  border-bottom-style: solid;
+  
+}
+
+#yr{
+  float:right;
+}
+
+#emp{
+  font-size:0.85em;
+  font-style:italic;
+  
+}
+
+#author{
+  font-size:0.85em;
+  text-transform:uppercase;
+}
 }
