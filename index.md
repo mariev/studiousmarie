@@ -7,7 +7,7 @@ section: about
 
 
 <div id="statement">
-  I am currently a Statistical Programmer at the Center for Veterinary Biologics, USDA Animal and Plant Health Inspection Service (APHIS). 
+  I am currently a Data Scientist at the Center for Veterinary Biologics, USDA Animal and Plant Health Inspection Service (APHIS). 
   <br><br>
 	In 2013, I received a dual-major PhD in the interdisciplinary programs of Bioinformatics and 
 	Computational Biology (BCB) and Human Computer Interaction (HCI) from <a href = 
