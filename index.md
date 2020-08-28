@@ -7,8 +7,10 @@ section: about
 
 
 <div id="statement">
-  I am currently a Data Scientist at the Center for Veterinary Biologics, USDA Animal and Plant Health Inspection Service (APHIS). 
-  <br><br>
+  I am currently a Senior Statistical Programmer at the Statistical Center for HIV/AIDS Research and Prevention (<a href = "https://www.fredhutch.org/en/research/divisions/vaccine-infectious-disease-division/research/biostatistics-bioinformatics-and-epidemiology/statistical-center-for-hiv-aids-research-and-prevention.html">SCHARP</a>) at Fred Hutch.
+<br><br>
+  	From 2010 - 2019 I was a Statistical Programmer at the Center for Veterinary Biologics, USDA Animal and Plant Health Inspection Service (APHIS). 
+  	<br><br>
 	In 2013, I received a dual-major PhD in the interdisciplinary programs of Bioinformatics and 
 	Computational Biology (BCB) and Human Computer Interaction (HCI) from <a href = 
 	"http://www.iastate.edu/">Iowa State 
