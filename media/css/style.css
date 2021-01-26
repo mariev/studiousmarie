@@ -216,5 +216,9 @@ blockquote:after {
 #author{
   font-size:0.85em;
   text-transform:uppercase;
+
 }
+
+#statement{
+  margin-top:5em;
 }
