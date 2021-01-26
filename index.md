@@ -17,7 +17,7 @@ section: about
 	University</a>. <br><br>
 	My undergraduate education was in Biochemistry and Math. Prior to grad school, 
 	I worked for five (5) years at <a href = "https://www.bloodworksnw.org/" 
-	title ="Donate a pint - save 3 lives!"> Bloodworks NW </a>, (previously Puget Sound Blood Center ) testing donor blood products in a cGMP, FDA-regulated environment.
+	title ="Donate a pint - save 3 lives!"> Bloodworks NW</a> (previously Puget Sound Blood Center), testing donor blood products in a cGMP, FDA-regulated environment.
 	<br><br>
 	My main interest is developing analytical systems that help scientists and researchers 
 	do their job more effectively. I primarily program in R, but routinely use python, 
