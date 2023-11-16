@@ -7,7 +7,9 @@ section: about
 
 
 <div id="statement">
-  I am currently a Senior Statistical Programmer at the Statistical Center for HIV/AIDS Research and Prevention (<a href = "https://www.fredhutch.org/en/research/divisions/vaccine-infectious-disease-division/research/biostatistics-bioinformatics-and-epidemiology/statistical-center-for-hiv-aids-research-and-prevention.html">SCHARP</a>) at Fred Hutch.
+I am currently a Data Scientist at Bonneville Power Administration, Department of Energy 
+	<br><br>   
+From 2019 - 2023 I was a Senior Statistical Programmer and Assistant Manager at the Statistical Center for HIV/AIDS Research and Prevention (<a href = "https://www.fredhutch.org/en/research/divisions/vaccine-infectious-disease-division/research/biostatistics-bioinformatics-and-epidemiology/statistical-center-for-hiv-aids-research-and-prevention.html">SCHARP</a>) at Fred Hutch.
 <br><br>
   	From 2010 - 2019 I was a Statistical Programmer at the Center for Veterinary Biologics, USDA Animal and Plant Health Inspection Service (APHIS). 
   	<br><br>
@@ -19,7 +21,7 @@ section: about
 	I worked for five (5) years at <a href = "https://www.bloodworksnw.org/" 
 	title ="Donate a pint - save 3 lives!"> Bloodworks NW</a> (previously Puget Sound Blood Center), testing donor blood products in a cGMP, FDA-regulated environment.
 	<br><br>
-	My main interest is developing analytical systems that help scientists and researchers 
+	My main interest is developing analytical systems and communities of practice to help scientists and researchers 
 	do their job more effectively. I primarily program in R, but routinely use python, 
 	java, html/css, LaTeX and VBA to create accessible working environments.
 	<br><br>
